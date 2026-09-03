@@ -1,5 +1,5 @@
 scripts:
-  - name: Controlled setup script
-    command: sh ./setup.sh
+  - name: Install dependencies
+    command: npm install
     triggers:
       - session.create
